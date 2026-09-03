@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Registro</title>
+</head>
+
+<body>
+    <form>
+        Nombre usuario: <input type="text" /><br><br>
+        Correo Electronico: <input type="email" /><br><br>
+        Contraseña: <input type="password" /><br><br>
+
+        <input type="radio" id="masculino" name="genero" value="masculino" />
+        <label for="masculino">Masculino</label><br />
+
+        <input type="radio" id="femenino" name="genero" value="femenino" />
+        <label for="femenino">Femenino</label><br><br>
+
+        <label>
+            <input type="checkbox" id="cbox1" value="first_checkbox" /> ¿Tienes interés?
+        </label><br><br>
+
+        <label for="ciudad">Elige una ciudad: </label>
+        <select id="ciudad" name="ciudad">
+            <option value="Cartagena">Cartagena</option>
+            <option value="Santa_Marta">Santa Marta</option>
+            <option value="Barranquilla">Barranquilla</option>
+        </select><br><br>
+
+        <button>Registrarse</button>
+    </form>
+</body>
+
+</html>
